@@ -1,0 +1,211 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wreaper{
+    width: 65%;
+    margin: 0 auto;
+}
+header{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.header__nav-link{
+    font-family: 'Roboto';
+    text-decoration: none;
+    color: #828282;
+}
+
+/* TITLE */
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.title__logo{
+    font-size: 47px;
+    width: 13%;
+}
+.title__logo-after{
+    width: 17%;
+    font-size: 18px;
+}
+.title__img{
+    width: 100%;
+    margin-top: 31px;
+}
+
+/* ABOUT ME  */
+
+.about__me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 104px;
+    background-color: #F6F6F6;
+    height: 506px
+    ;
+}
+.about__me-logo{
+    font-size: 34px;
+}
+.about{
+    width: 485px;
+    position: relative;
+    margin-top: 18px;
+}
+.about__me-info{
+    margin-bottom: 35px;
+    font-size: 18px;
+    color: #070707;
+    text-align: center;
+}
+.about__me-info:last-child{
+    margin-bottom: 0px;
+}
+
+/* SKILLS */
+
+.skill{
+    margin-top: 91px;
+}
+
+.skills__logo{
+    text-align: center;
+    font-size: 34px;
+}
+
+.skills__logo-after{
+    margin-bottom: 83px;
+    margin-top: 63px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.skills__photo{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*portfolio*/
+.color__main{
+    background-color: #F6F6F6;
+}
+
+.portfolio{
+    background-color:#F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.porfolio__logo{
+    margin-top: 113px;
+    margin-bottom: 47px;
+}
+.portfolio__img{
+    width:936px ;
+    height:510px ;
+}
+.fashion-store_link{
+    margin-top: 45px;
+    color: #070707;
+    font-size: 18px;
+}
+
+/* rebooke */
+
+.reebooke{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F6F6F6;
+    height: 590px;
+    margin-top: 100px;
+}
+.reebooke__link{
+    color: #070707;
+    font-size: 18px;
+}
+
+.brown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 590px;
+    margin-top: 100px;
+    margin-bottom: 96px;
+}
+.brown__link{
+    color: #070707;
+    font-size: 18px;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 380px;
+    margin-top:115px ;
+    margin-bottom:123px ;
+}
+.contacts{
+    font-size: 34px;
+    color: #070707;
+}
+
+.after__contacts{
+    width: 275px;
+    font-size: 18px;
+    color: #070707;
+    text-align: center;
+}
+.sand__massage{
+    background: #070707;
+    color: #FFFFFF;
+    border: 0 solid;
+    height: 42px;
+    width: 180px;
+    border-radius: 30%;
+}
+
+.end{
+    width: 243px;
+    font-size: 14px;
+    color: #828282;
+    text-align: center;
+}
+@media (max-width: 769px){
+    .wreaper{
+        width: 65%;
+        width: none;
+    }
+    .skill{
+        margin: 0px auto;
+    }
+    .skills__photo{
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+        align-items: center;
+    }
+    .skills__photo-element{
+        padding-bottom: 60px;
+        margin-right: 0px; 
+        margin-left: 0px;
+    }
+}
